@@ -9,6 +9,7 @@ import { Avatar, IconButton } from '@material-ui/core';
 import avatar from '../../assets/img/avatar.svg';
 
 import './styles.css';
+import SidebarChat from '../SidebarChat';
 
 const Sidebar: React.FC = () => {
   return (
@@ -33,6 +34,12 @@ const Sidebar: React.FC = () => {
           <SearchOutlinedIcon />
           <input placeholder="Procurar ou começar uma nova conversa" type="text"/>
         </div>
+      </div>
+
+      <div className="sidebar__chats">
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
       </div>
     </div>
   );
