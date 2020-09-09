@@ -9,10 +9,12 @@ import api from './services/api';
 
 dontenv.config();
 
-interface IData {
+export interface IData {
   name: string;
   message: string;
   timestamp: string;
+  received: boolean;
+  _id: string;
 }
 
 function App() {
@@ -43,14 +45,12 @@ function App() {
 
   }, [messages]);
 
-  console.log(messages);
-
   return (
     <div className="app">
       <div className="app__body">
         <Sidebar />
 
-        <Chat />
+        <Chat messages={messages} />
       </div>
     </div>
   );
