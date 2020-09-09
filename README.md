@@ -1,6 +1,6 @@
 ## WhatsApp Web (React.js && Typescript)
 
-<!-- <img src="" alt="WhatsApp" /> -->
+<img src="https://github.com/vbeloti/whatsapp-web/blob/master/.github/img/whatsapp-web-1.png?raw=true" alt="WhatsApp" />
 
 In the project directory, you can run:
 
